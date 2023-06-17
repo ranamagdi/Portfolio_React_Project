@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    padding-top: 0;
+
+
+}
+
+/*nav start*/
+
+
+.header{
+
+    margin-top: 0;
+
+
+
+}
+.last-link{
+    margin-left: 43px;
+}
+.navbar-nav{
+    padding-left: 17rem;
+}
+.header .nav-link{
+    margin-left: 15px ;
+}
+
+
+.header .logo{
+    display: inline-block;
+    margin-right: 17rem;
+    color: #071e33;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.icon-border{
+    border: white 1px solid;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+.icon-border::before {
+    content: "";
+    text-align: center;
+    bottom:-1px;
+    right: -1px;
+
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform: scale(0);
+	transition: 0.3s ease-in-out;
+    border: white 1px solid;
+}
+.icon-border:hover::before {
+    transform: scale(1);
+
+}
+.icon-border:focus{
+    color: #cee7e7;
+}
+.icon-border .icons {
+	font-size: 19px;
+	z-index: 1;
+	transition: 0.3s ease-in-out;
+}
+.icon-border:hover .icons {
+    filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+.btnScroll{
+    font-size: 20px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+}
+.btnScroll::before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+  }
+  .btnScroll:hover {
+    color: #121212;
+  }
+  .btnScroll:hover::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+  }
+
+
+.header a{
+    color:rgba(247, 247, 247, 0.986);
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/*Header start*/
+.main{
+    background-image: url(../images/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:top;
+    margin-bottom: 30px;
+    padding: 210px 0 100px 0;
+}
+
+.portfolio{
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(238, 99, 254, 0.7) -5.91%, rgba(80, 0, 133, 0.7) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.712);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+  border-radius: 6px ;
+
+}
+.main h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+    color: white;
+  }
+  .main p {
+    color:aliceblue;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+  }
+  .main button {
+    color: #fff;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-top: 30px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+
+  }
+  .main button span{
+    margin-left: 20px;
+  }
+  .main img {
+    margin-top: -40px;
+    height: 90%;
+    animation: updown 3s linear infinite;
+  }
+  @keyframes updown {
+      0% {
+          transform: translateY(-20px);
+      }
+      50% {
+          transform: translateY(20px);
+      }
+      100% {
+          transform: translateY(-20px);
+      }
+  }
+
+/*skills start*/
+.skill {
+    padding: 0 0 50px 0;
+    position: relative;
+  }
+  .skill-bx {
+    background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+  }
+  .skill h2 {
+      font-size: 45px;
+      font-weight: 700;
+  }
+  .skill p {
+      color: #B8B8B8;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      margin: 14px 0 75px 0;
+  }
+  .skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .skill-slider .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+  }
+  .background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+  }
