@@ -3,6 +3,9 @@ import Header from "./Header";
 import Projects from "./Projects";
 import NavBar from "./Navbar";
 import Skills from "./Skills";
+import Contact from "./Contact";
+import Newsletter from "./Newsletter";
+import Footer from "./Footer";
 
 function Home(){
     return(
@@ -11,6 +14,9 @@ function Home(){
             <Header/>
             <Skills/>
             <Projects/>
+            <Contact/>
+            <Newsletter/>
+            <Footer/>
         </div>
     )
 }

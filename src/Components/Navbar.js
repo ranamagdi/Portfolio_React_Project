@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import { NavLink } from  "reactstrap"
 import { Link } from "react-scroll";
 
@@ -6,9 +6,9 @@ import { Link } from "react-scroll";
 function NavBar(){
 
   function scrollFunction() {// When the user scrolls down 50px from the top of the document, show the button
-    if (document.body.scrollTop > 50 ||
-      document.documentElement.scrollTop > 50) {//window.pageYOffset>50 //3shan t7seb 3melt scroll 2d eh
-        document.querySelector(".navScroll").style.backgroundColor = "#27a4f6";
+    if (document.body.scrollTop > 40 ||
+      document.documentElement.scrollTop > 40) {//window.pageYOffset>50 //3shan t7seb 3melt scroll 2d eh
+        document.querySelector(".navScroll").style.backgroundColor = "#10052d";
 
 
      }
