@@ -15,7 +15,7 @@ function Skills(){
       <div className="container">
          <div className="row">
            <div className="col-12 skill-bx">
-        <h1>Skills</h1>
+        <h1 id="h1-scroll">Skills</h1>
         <p className="text-lg py-3">
         I have learned different programming languages so far and as far as my skills are concerned
         </p>

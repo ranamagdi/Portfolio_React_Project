@@ -1,5 +1,6 @@
 import React from "react";
 import { Container,Row,Col } from "reactstrap";
+import TrackVisibility from "react-on-screen";
 function Contact(){
     return(
 
@@ -7,10 +8,16 @@ function Contact(){
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
-            <img  src='images/nimpath-overview-01.png' alt="Contact Us"/>
+          <TrackVisibility>
+              {({ isVisible }) =>
+                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src='images/nimpath-overview-01.png' alt="Contact Us"/>
+              }
+            </TrackVisibility>
           </Col>
           <Col size={12} md={6}>
-                <div >
+            <TrackVisibility>
+              {({ isVisible }) =>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>Get In Touch</h2>
                 <form >
                   <Row>
@@ -33,7 +40,8 @@ function Contact(){
 
                   </Row>
                 </form>
-              </div>
+                </div>}
+            </TrackVisibility>
 
           </Col>
         </Row>

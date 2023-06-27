@@ -2,7 +2,8 @@ import React from "react";
 import { Container,Row,Col } from  "reactstrap"
 import Typewriter from 'typewriter-effect'
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import TrackVisibility from "react-on-screen";
+import TrackVisibility from 'react-on-screen';
+import 'animate.css';
 
 
 
@@ -15,6 +16,7 @@ function Header(){
           <Col xs={12} md={6} xl={7}>
           <TrackVisibility>
               {({ isVisible }) =>
+
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
           <span className="portfolio">Welcome All In My Portfolio </span>
           <h1>Hi! I'm Rana,
@@ -31,7 +33,7 @@ function Header(){
           </h1>
 
                   <p>My fullname is Rana Magdi Mohammed. I'm 23 years old. I'm graduated from faculty of engineering Ain Shams University.I need to be FullStack developer.And I'm interst to learn new technologies. </p>
-                  <button>Let's Connect<span> <ArrowRightCircle size={25} /></span></button>
+                  <button id="to-end">Let's Connect<span> <ArrowRightCircle size={25} /></span></button>
                   </div>
                   }
 

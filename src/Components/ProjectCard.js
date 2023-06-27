@@ -1,22 +1,17 @@
 import React from "react";
-import { Col, Container } from "reactstrap";
+import { Col} from "reactstrap";
 
-function ProjectCard({item}) {
+ const ProjectCard= ({ title, description, imgUrl }) => {
   return (
-    <div>
-
-       <Col size={12} sm={6} md={4}>
+    <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
-        <img src={item.img} />
+        <img src={imgUrl} />
         <div className="proj-txtx">
-          <h4>{item.title}</h4>
-          <span>{item.description}</span>
+          <h4>{title}</h4>
+          <span>{description}</span>
         </div>
       </div>
     </Col>
-    
-    </div>
   )
 }
-
 export default ProjectCard;
