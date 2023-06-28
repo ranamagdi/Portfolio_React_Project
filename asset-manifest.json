@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ranamagdi/Portfolio_React_Project.git/static/css/main.6af4c37a.css",
+    "main.js": "/ranamagdi/Portfolio_React_Project.git/static/js/main.2aa4e895.js",
+    "static/js/787.071eb048.chunk.js": "/ranamagdi/Portfolio_React_Project.git/static/js/787.071eb048.chunk.js",
+    "index.html": "/ranamagdi/Portfolio_React_Project.git/index.html",
+    "main.6af4c37a.css.map": "/ranamagdi/Portfolio_React_Project.git/static/css/main.6af4c37a.css.map",
+    "main.2aa4e895.js.map": "/ranamagdi/Portfolio_React_Project.git/static/js/main.2aa4e895.js.map",
+    "787.071eb048.chunk.js.map": "/ranamagdi/Portfolio_React_Project.git/static/js/787.071eb048.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6af4c37a.css",
+    "static/js/main.2aa4e895.js"
+  ]
+}
