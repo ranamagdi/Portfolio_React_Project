@@ -3,9 +3,11 @@ import Home from './Components/Home';
 
 function App() {
   return (
-    <div>
-    <Home/>
-    </div>
+    <HashRouter>
+      <Routes>
+      <Route path="/" element={<Home/>}/>
+      </Routes>
+    </HashRouter>
   );
 }
 

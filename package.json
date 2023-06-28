@@ -1,4 +1,4 @@
-{  "homepage": "https://ranamagdi.github.io/Portfolio_React_Project",
+{ "homepage": "https://ranamagdi.github.io/Portfolio_React_Project",
   "name": "portfolio_project",
   "version": "0.1.0",
   "private": true,
@@ -29,7 +29,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
+    "predeploy":"num run build",
     "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
