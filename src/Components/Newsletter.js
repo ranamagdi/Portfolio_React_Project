@@ -10,10 +10,10 @@ function Newsletter (){
         <div className="newsletter-bx">
 
           <Row>
-            <Col lg={12} md={6} xl={5}>
+            <Col lg={12} md={6} xl={5} sm={6}>
               <h3>See My Projects At Once<br></br>& leave Here Your E-mail</h3>
             </Col>
-            <Col md={6} xl={7}>
+            <Col md={6} xl={7} sm={6}>
               <form >
                 <div className="new-email-bx">
                   <input  type="email"  placeholder="Email Address" />

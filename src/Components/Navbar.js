@@ -32,7 +32,7 @@ function NavBar(){
 
       <div className="header">
 
-      <nav className="navbar navbar-expand-lg fixed-top  navScroll ">
+      <nav className="navbar navbar-expand-md fixed-top  navScroll ">
         <div className="container">
         <NavLink className="navbar-brand logo" to="/" >
         <h2 className="text-white">Rana</h2>
@@ -43,16 +43,18 @@ function NavBar(){
           </button>
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav ">
+
             <li className="nav-item ">
               <Link className="nav-link link-nav first_nav" activeClass="active"  to="main-header" spy={true}   smooth={true} offset={20} duration={500} >Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link link-nav second_nav" activeClass="active" to="skills" spy={true} smooth={true} offset={-20} duration={500} >Skills</Link>
+              <Link className="nav-link link-nav second_nav" activeClass="active" to="skills" spy={true} smooth={true} offset={30} duration={500} >Skills</Link>
             </li>
 
             <li className="nav-item">
               <Link className="nav-link link-nav" activeClass="active" to="project" spy={true} smooth={true} offset={-5} duration={500} >Projects </Link>
             </li>
+            
             <li className="nav-item last-link">
               <a className="nav-link icon-border " href="https://linkedin.com/in/rana-magdi-4aa5401b0" target="_blank"><i class="fa-brands fa-linkedin-in icons "></i></a>
             </li>
